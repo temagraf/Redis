@@ -75,7 +75,7 @@ quit
 ```
 
 ### Скриншот выполнения команд
-![Скриншот](https://github.com/StanislavBaranovskii/11-2-hw/blob/main/img/11-2-3.png "Скриншот")
+![Скриншот3](https://github.com/StanislavBaranovskii/11-2-hw/blob/main/img/11-2-3.png "Скриншот3")
 ---
 
 ## Задание 4. Запись данных в Redis
@@ -83,6 +83,28 @@ quit
 Запишите в Redis несколько ключей с любыми именами и значениями. 
 
 *Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.*
+
+### Установка и проверка redis
+```
+sudo apt install -y redis
+sudo systemctl status redis
+
+```
+### Листинг команд
+```
+redis-cli
+
+scan 0
+set k1 test
+set k2 100
+scan 0
+get k1
+get k2
+flushall
+exit
+```
+### Скриншот выполнения команд
+![Скриншот4](https://github.com/StanislavBaranovskii/11-2-hw/blob/main/img/11-2-4.png "Скриншот4")
 
 ---
 
