@@ -37,6 +37,12 @@
 
 *Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.*
 
+```
+sudo apt update && sudo apt install memcached
+sudo systemctl status memcached
+```
+
+![Скриншот состояния memcached](https://github.com/StanislavBaranovskii/11-2-hw/blob/main/img/11-2-2.png "Скриншот состояния memcached")
 ---
 
 ### Задание 3. Удаление по TTL в Memcached
