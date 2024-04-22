@@ -45,7 +45,7 @@ sudo netstat -tap | grep memcached
 sudo systemctl status memcached
 ```
 ### Скриншот состояния memcached
-![Скриншот состояния memcached](https://github.com/StanislavBaranovskii/11-2-hw/blob/main/img/11-2-2.png "Скриншот состояния memcached")
+![Скриншот состояния memcached]((https://github.com/temagraf/Redis/blob/main/img/11-2-2.png "Скриншот состояния memcached")
 ---
 
 ## Задание 3. Удаление по TTL в Memcached
