@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`11.2. Кеширование Redis/memcached`" - `Барановский Станислав`
+# Домашнее задание к занятию "`11.2. Кеширование Redis/memcached`" - `Яковлев Артем`
 
 ### Инструкция по выполнению домашнего задания
 
@@ -75,7 +75,7 @@ quit
 ```
 
 ### Скриншот выполнения команд
-![Скриншот3](https://github.com/StanislavBaranovskii/11-2-hw/blob/main/img/11-2-3.png "Скриншот3")
+![Скриншот3](https://github.com/temagraf/Redis/blob/main/img/11-2-3.png "Скриншот3")
 ---
 
 ## Задание 4. Запись данных в Redis
@@ -104,7 +104,7 @@ flushall
 exit
 ```
 ### Скриншот выполнения команд
-![Скриншот4](https://github.com/StanislavBaranovskii/11-2-hw/blob/main/img/11-2-4.png "Скриншот4")
+![Скриншот4](https://github.com/temagraf/Redis/blob/main/img/11-2-4.png "Скриншот4")
 
 ---
 
@@ -131,6 +131,6 @@ flushall
 exit
 ```
 ### Скриншот выполнения команд
-![Скриншот5](https://github.com/StanislavBaranovskii/11-2-hw/blob/main/img/11-2-5.png "Скриншот5")
+![Скриншот5](https://github.com/temagraf/Redis/blob/main/img/11-2-5.png "Скриншот5")
 
 ---
